@@ -1,3 +1,5 @@
+
+/* PostgreSQL */
 CREATE INDEX idx_condition_person_id_1 ON public."condition_occurrence" (person_id ASC);
 CREATE INDEX idx_condition_concept_id_1 ON public."condition_occurrence" (condition_concept_id ASC);
 CREATE INDEX idx_condition_visit_id_1 ON public."condition_occurrence" (visit_occurrence_id ASC);
@@ -34,6 +36,8 @@ CREATE INDEX idx_concept_ancestor_id_2 ON public."concept_ancestor" (descendant_
 
 
 
+
+/* MSSQL */
 
 /*@targetDialect OMOP CDM Indices
 
